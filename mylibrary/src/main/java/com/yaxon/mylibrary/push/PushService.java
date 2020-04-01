@@ -9,11 +9,8 @@ import android.os.IBinder;
 
 import androidx.annotation.Nullable;
 
-public class PushService extends Service {
+import cn.jpush.android.service.JCommonService;
 
-    @Nullable
-    @Override
-    public IBinder onBind(Intent intent) {
-        return null;
-    }
+public class PushService extends JCommonService {
+
 }
